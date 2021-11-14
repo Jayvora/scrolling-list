@@ -1,0 +1,105 @@
+:root {
+  /* --font: "Source Sans Pro", sans-serif; */
+  --font: "Poppins", sans-serif;
+  /* fontWeight */
+  --fontRegular: normal;
+  --fontMedium: 500;
+  --fontBold: 600;
+
+  /* fontSize */
+  --fontSize: 14px;
+  --fontSizeSmall: 12px;
+  --lineHeight: 18px;
+  --fontSizeRegular: 16px;
+  --lineHeightRegular: 20px;
+  --fontSizeMedium: 20px;
+  --lineHeightMedium: 24px;
+  --fontSizeXL: 24px;
+  --lineHeightXL: 28px;
+  --fontSizexXL: 24px;
+  --lineHeightxXL: 28px;
+
+  /* color shades */
+  --grey_shade: #74838f;
+  --infoText: #a8aeb1;
+  --dark_color: #0d2238;
+  --brandColor: #41c3a9;
+  --brandColor2: #35b098;
+
+  --brandHoverColor: #2fb89c;
+  --brandHoverBorder: #027b62;
+  --btnColor: #ffffff;
+  --shade_E5EFEF: #e5efef;
+  --shade_FAFCFC: #fafcfc;
+  --shade_CAD1D4: #cad1d4;
+  --shade_f7f7f7: #f7f7f7;
+  --shade_ffffff: #ffffff;
+  --shade_F3F9F9: #f3f9f9;
+  --shade_EAF0F3: #eaf0f3;
+  --shade_A8AEB1: #a8aeb1;
+  --error: #e76e6e;
+  --listing-search-placeholder: #cad1d5;
+  --pagination-color: #424755;
+
+  --bodyBg: #f3f9f9;
+  --letterSpacing: -0.022em;
+  --container: 1360px;
+  --sidePadding1: 0px 10px;
+  --sidePadding2: 0px 20px;
+  --sidePadding3: 0px 30px;
+  --marginAuto: 0px auto;
+  --transition: all 0.1s ease;
+  --transition3: all 0.3s ease;
+
+  /* panel css */
+  --panelBg: #ffffff;
+  --tabBg: #f1f5f8;
+  --HNPValueBgColor: #e5efef;
+  --gridSpacing1: 30px;
+  --gridSpacing2: 20px;
+  --shadow1: 0px 4px 20px rgba(0, 0, 0, 0.04);
+  --shadow2: 0px 4px 3px rgba(229, 239, 239, 0.46);
+  --inputShadow: 0px 0px 0px 1px var(--borderColor2);
+  --radius1: 12px;
+  --radius2: 8px;
+  --radius3: 24px;
+  --borderColor1: #e5efef;
+  --borderColor2: #a8e2e2;
+  --borderColor3: #cad1d4;
+  --borderColor4: #eaf0f3;
+  --borderColor5: #f3f9f9;
+  --borderColor6: #74838f;
+  --borderColor7: #cad1d5;
+  --borderColor8: #f1f1f1;
+
+  /* table css */
+  --backgroundColorTable: #f9fafb;
+
+  /* table css */
+  --backgroundColorTable: #f9fafb;
+
+  --tabMinHeight: 48px;
+  --tabBgColor: #eaf0f3;
+  --dragHandleBgColor: #eaf0f3;
+  --headerBg: #fafcfc;
+  --iconColor: #cad1d5;
+
+  --drpdownBG: #f5fafa;
+  --maxChildContainer: 640px;
+  --badgeBg: #f7f7f7;
+
+  --topSpacing: 67px;
+  --nav-header-listing-pos-end: 116px;
+  --table-header-listing-pos-end: 181px;
+  --error-color: #e76e6e;
+  --error: var(--error-color);
+
+  --active-color: var(--brandColor);
+  --inactive-color: #e76e6e;
+  --warningYellow: #f6b656;
+  --warningYellowHover: #ec991d;
+
+  /* Pop up */
+
+  --popupbg1: rgba(255, 255, 255, 0.8);
+}
