@@ -1,0 +1,118 @@
+.inputBox {
+  display: inline-block;
+  // min-width: 250px;
+  position: relative;
+  // max-width: var(--maxChildContainer);
+  width: 100%;
+  .sortingArrowWrapper {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    right: 7px;
+    .sortingArrow {
+      display: inline-block;
+      cursor: pointer;
+      svg {
+        color: var(--shade_CAD1D4);
+      }
+      &.sortingArrowUp {
+        transform: rotate(180deg);
+      }
+      &.sortingArrowDown {
+        top: 50%;
+      }
+      &:hover {
+        svg {
+          color: var(--dark_color);
+        }
+        // .sortingArrow{
+        //   opacity: 1 !important;
+        // }
+      }
+    }
+  }
+  // input:hover ~ .sortingArrow{
+  //     opacity: 1 !important;
+  //   }
+}
+.inputField {
+  background-color: #fff;
+  padding: 0 10px;
+  border: 1px solid var(--borderColor1);
+  position: relative;
+  border-radius: var(--radius2);
+  // cursor: pointer;
+  width: 100%;
+  min-height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  &:focus {
+    border: 1px solid var(--borderColor2);
+    box-shadow: var(--inputShadow);
+  }
+  &:disabled {
+    background-color: var(--shade_f7f7f7);
+    cursor: not-allowed;
+  }
+  &.invalid {
+    border-color: var(--error-color);
+    box-shadow: none;
+    &::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: var(--error);
+    }
+  }
+}
+
+.inputBox:hover .sortingArrowWrapper {
+  opacity: 1;
+}
+
+.textError {
+  color: var(--error);
+  margin-top: 5px;
+  // font-weight: var(--fontRegular);
+  font-weight: var(--fontMedium);
+  font-size: 12px;
+  line-height: 16px;
+}
+.textErrorLayer:focus,
+.textErrorLayer {
+  border: 1px solid var(--error) !important;
+
+  // border: 0px !important;
+  box-shadow: none;
+  // box-shadow: 0px 0px 0px 1px var(--error) !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  padding-right: 28px;
+  -moz-appearance: textfield;
+}
+
+.icon {
+  left: 21px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  display: block;
+  z-index: 1;
+  color: var(--shade_CAD1D4);
+}
+.searchField {
+  padding-left: 48px;
+}

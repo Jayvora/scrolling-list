@@ -1,0 +1,8 @@
+@import "../../styles/mixin.module.scss";
+
+.scrollWrapper {
+  padding: 40px;
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+}
